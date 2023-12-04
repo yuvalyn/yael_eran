@@ -1,16 +1,32 @@
-# employee_app
+# Employees - A Flutter Mobile Application
 
-employee_app
+## Introduction
+**Employees** is a mobile application developed using Flutter, designed to streamline the process of viewing and editing a list of employees. This application stands out with its localization features and white-label support through configurable JSON, making it adaptable and user-friendly for various business needs.
 
-## Getting Started
+## Features
+- **Employee Management:** Efficiently view and edit employee details. add and remove employees
+- **Localization Support:** The application features localized text to cater to a diverse user base.
+- **White Label Ready:** Comes with a configurable JSON file, enabling easy branding and customization for various organizations.
+- **tests:**  Includes sample unit tests.
+- **ap Icon:** applecation customized icon.
 
-This project is a starting point for a Flutter application.
+## Technologies
+- **Flutter:** A UI toolkit by Google for crafting natively compiled applications for mobile, web, and desktop from a single codebase.
+- **Dart:** The programming language used for developing Flutter applications.
 
-A few resources to get you started if this is your first Flutter project:
+## Installation and Setup
+To get started with the Employees app, follow these steps:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. **Clone the Repository:**
+git clone https://github.com/yuvalyn/yael_eran.git
+2. **Navigate to the Project Directory:** cd yael_eran
+3. **Install Dependencies:** flutter pub get
+4. **Run the Application:** flutter run
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Usage
+After installation, you can start using the app to manage employee data. The UI is intuitive, offering seamless navigation for viewing and editing employee details.
+
+
+
+## Support and Contact
+For support or inquiries, please contact yaeleran@gmail.com.
