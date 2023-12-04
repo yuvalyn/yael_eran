@@ -1,0 +1,7 @@
+{
+  "app_name": "My Employee App",
+  "primary_color": "#3498db",
+  "secondary_color": "#db3498",
+  "tertiary_color": "#98db34",
+  "logo_path": "assets/images/logo.png"
+}

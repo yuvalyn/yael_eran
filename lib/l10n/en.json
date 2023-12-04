@@ -1,0 +1,11 @@
+{
+  "@@locale": "en",
+  "edit": "Edit Employee",
+  "add": "Add Employee",
+  "name": "Name",
+  "name_error": "Name is required",
+  "position": "Position",
+  "position_error": "Position is required",
+  "save": "Save",
+  "empty_state": "No employees yet.\n Add some!"
+}
