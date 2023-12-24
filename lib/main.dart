@@ -13,9 +13,7 @@ import 'models/app_config.dart';
 void main() async {
   await Hive.initFlutter();
   Hive.registerAdapter(EmployeeAdapter());
-  await Hive.openBox<Employee>('employees');
-  await Hive.openBox<List<String>>('keys');
-
+  
   await AppConfig.initialize();
 
   runApp(const MyApp());

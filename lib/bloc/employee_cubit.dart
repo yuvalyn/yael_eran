@@ -11,6 +11,8 @@ class EmployeeCubit extends Cubit<EmployeeState> {
   }
 
   void _init() async {
+    emit(EmployeeLoadingState());
+    await _employeeRepository.init();
     var employees = await _employeeRepository.getSortedEmployees();
     emit(EmployeeListState(employees: employees));
   }

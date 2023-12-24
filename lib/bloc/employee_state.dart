@@ -2,8 +2,7 @@ import '../models/employee.dart';
 
 abstract class EmployeeState{}
 
-class InitialState extends EmployeeState{
-
+class EmployeeLoadingState extends EmployeeState{
 }
 
 class EmployeeListState extends EmployeeState{

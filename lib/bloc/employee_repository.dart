@@ -10,6 +10,12 @@ class EmployeeRepository {
 
   EmployeeRepository._internal();
 
+  // Initialization method to open Hive boxes
+  Future<void> init() async {
+    await Hive.openBox<Employee>('employees');
+    await Hive.openBox<List<String>>('keys');
+  }
+
   Future<List<Employee>> addEmployee(Employee employee) async {
     var employeeBox = Hive.box<Employee>('employees');
     var keysBox = Hive.box<List<String>>('keys');
