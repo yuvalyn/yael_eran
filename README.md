@@ -7,12 +7,18 @@
 - **Employee Management:** Efficiently view and edit employee details. add and remove employees
 - **Localization Support:** The application features localized text to cater to a diverse user base.
 - **White Label Ready:** Comes with a configurable JSON file, enabling easy branding and customization for various organizations.
-- **tests:**  Includes sample unit tests.
-- **ap Icon:** applecation customized icon.
+- **Tests:**  Includes sample unit tests.
+- **Application Icon:** applecation customized icon.
 
 ## Technologies
 - **Flutter:** A UI toolkit by Google for crafting natively compiled applications for mobile, web, and desktop from a single codebase.
 - **Dart:** The programming language used for developing Flutter applications.
+
+## Screens
+![Alt text](screenshots/screen1.png "Applecation Icon")
+![Alt text](screenshots/screen2.png "Empty state")
+![Alt text ](screenshots/screen3.png "Add form")
+![Alt text ](screenshots/screen4.png "Employees list")
 
 ## Installation and Setup
 To get started with the Employees app, follow these steps:
